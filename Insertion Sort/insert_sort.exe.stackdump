@@ -1,0 +1,10 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=00401302
+eax=00000005 ebx=00000005 ecx=FFFFFFFC edx=00000000 esi=0022CC40 edi=611D7DB2
+ebp=0022CC18 esp=0022CBE0 program=C:\Users\ann\Documents\NetBeansProjects\Insert sort\dist\Debug\Cygwin-Windows\insert_sort.exe, pid 2420, thread main
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+0022CC18  00401302 (00000005, 00000005, 00000005, 00000004)
+0022CC78  004014C9 (612F13FF, 611D7DB2, 0022CD28, 61007A3F)
+0022CD28  61007A3F (00000000, 0022CD84, 61006A70, 00000000)
+End of stack trace
